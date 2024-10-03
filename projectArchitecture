@@ -1,0 +1,9 @@
+test
+     |- endpoints
+     |- payload
+     |-reporting
+     |-test
+     |-utilities
+
+test/resources
+     |- Log4j2.xml
