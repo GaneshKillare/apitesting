@@ -2,18 +2,20 @@ package endpoints;
 
 public class Routes {
 
-    public static String base_url = "https://fakerestapi.azurewebsites.net/";
+    public static final String base_url = "https://fakerestapi.azurewebsites.net/";
 
 
     // Activities
-
-    public static String Activities_PostURL = base_url + "/api/v1/Activities";
-    public static String Activities_GetURL = base_url + "/api/v1/Activities/{id}";
-    public static String Activities_PutURL = base_url + "/api/v1/Activities/{id}";
-    public static String Activities_DeleteURL = base_url + "/api/v1/Activities/{id}";
+    public static String Activities_GetAll = base_url + "api/v1/Activities";
+    public static String Activities_PostURL = base_url + "api/v1/Activities";
+    public static String Activities_GetURL = base_url + "api/v1/Activities/{id}";
+    public static String Activities_PutURL = base_url + "api/v1/Activities/{id}";
+    public static String Activities_DeleteURL = base_url + "api/v1/Activities/{id}";
 
 
     // Authors
+
+    public static String Authors_GetAll = base_url + "/api/v1/Authors";
     public static String Authors_PostURL = base_url + "/api/v1/Authors";
     public static String Authors_GetURLByName = base_url + "/api/v1/Authors/authors/books/{idBook}";
     public static String Authors_GetURLById = base_url + "/api/v1/Authors/{id}";
